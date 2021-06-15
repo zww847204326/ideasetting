@@ -1,0 +1,8 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="list@userDefined" key=".list" provider="builtin.java" language-level="7" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="List&lt;$EXPR$&gt; $END$ = new ArrayList&lt;&gt;();" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
